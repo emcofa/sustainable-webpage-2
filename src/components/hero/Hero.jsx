@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './hero.css';
-import Lake from '../../assets/lake-unsplash.jpg';
-import Sea from '../../assets/sea-unsplash.jpg';
-import Nature from '../../assets/nature-unsplash.jpg';
-import Svg from '../../assets/bouncing-svg.svg';
+import Lake from '../../assets/lake-unsplash.webp';
+import Sea from '../../assets/sea-unsplash.webp';
+import Nature from '../../assets/nature-unsplash.webp';
+import Svg from '../../assets/static-svg.svg';
 
 function Hero() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -37,16 +37,25 @@ function Hero() {
                     src={Lake}
                     alt="First Image"
                     className={activeIndex === 0 ? "active" : ""}
+                    loading="lazy"
+                    srcSet={`${Lake} 400w, ${Lake} 800w, ${Lake} 1200w`}
+                    sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, 33.3vw"
                 />
                 <img
                     src={Sea}
                     alt="Second Image"
                     className={activeIndex === 1 ? "active" : ""}
+                    loading="lazy"
+                    srcSet={`${Sea} 400w, ${Sea} 800w, ${Sea} 1200w`}
+                    sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, 33.3vw"
                 />
                 <img
                     src={Nature}
                     alt="Third Image"
                     className={activeIndex === 2 ? "active" : ""}
+                    loading="lazy"
+                    srcSet={`${Nature} 400w, ${Nature} 800w, ${Nature} 1200w`}
+                    sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, 33.3vw"
                 />
                 <button
                     className="next-button"

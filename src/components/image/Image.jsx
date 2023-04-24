@@ -1,29 +1,8 @@
-import React, { useState, useEffect } from 'react'
-import Lake from '../../assets/mountain.jpg'
+import React from 'react'
+import Lake from '../../assets/mountain.webp'
 import './image.css'
 
 function Image() {
-    const [width, setWidth] = useState('80%');
-    const [height, setHeight] = useState('auto');
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const windowHeight = window.innerHeight;
-            const image = document.getElementById('image');
-            if (image) {
-                const { top, bottom } = image.getBoundingClientRect();
-                const imageHeight = bottom - top;
-                const heightOffset = Math.max(windowHeight - top, 0);
-                const newWidth = `${80 + heightOffset / imageHeight * 20}%`;
-                setWidth(newWidth);
-                setHeight('auto');
-            }
-        };
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     return (
         <div className="scroll__image-container">
@@ -31,7 +10,10 @@ function Image() {
                 id="image"
                 src={Lake}
                 alt="Example image"
-                style={{ width: width, height: height }}
+                style={{ width: '100%', height: 'auto' }}
+                loading="lazy"
+                srcSet={`${Lake} 400w, ${Lake} 800w, ${Lake} 1200w`}
+                sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, 33.3vw"
             />
             <div className="scroll__text-container">
                 <h2>Lorem ipsum dolor</h2>
