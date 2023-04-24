@@ -1,10 +1,13 @@
 .columns-parent h2 {
     margin-top: 2rem;
     text-align: center;
+    color: var(--color-white);
 }
+
 
 .columns-parent p {
     text-align: center;
+    color: var(--color-primary-variant);
 }
 
 .columns-container {
@@ -20,7 +23,7 @@
     width: 300px;
     padding: 20px;
     margin: 20px;
-    background-color: #fff;
+    background-color: var(--color-white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
@@ -28,6 +31,7 @@
 .column h3 {
     font-size: 2rem;
     margin-bottom: 10px;
+    color: var(--color-bg-variant);
 }
 
 .column p {

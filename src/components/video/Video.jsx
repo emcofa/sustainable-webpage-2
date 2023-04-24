@@ -7,9 +7,6 @@ function Video() {
         <div>
             <div className="large-img__container">
                 <h1 className="video-title">Webpage 2</h1>
-                <p className="video-text">
-                    This webpage is an implementation of sustainable design principles.
-                </p>
                 <div className="video-container">
                     <video
                         src={LakeVideo}
