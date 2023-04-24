@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Jost&family=Lora&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +18,7 @@
   --color-white: #d9f8cf;
   --color-light: rgba(62, 243, 12, 0.6);
 
-  --special-font: 'Amatic SC', cursive;
+  --special-font: 'Courier New', Courier, monospace;
   --transition: all 400ms ease;
   --container-width-lg: 75%;
   --container-width-md: 86;
@@ -37,7 +35,7 @@ html {
 }
 
 body {
-  font-family: 'Jost', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: var(--color-bg);
   color: var(--color-black);
   line-height: 1.7;
@@ -56,7 +54,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lora', serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 500;
 }
 
