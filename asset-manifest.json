@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/sustainable-webpage-2/static/css/main.f03a8b32.css",
-    "main.js": "/sustainable-webpage-2/static/js/main.e8d4892d.js",
+    "main.css": "/sustainable-webpage-2/static/css/main.8df11a15.css",
+    "main.js": "/sustainable-webpage-2/static/js/main.89ad8314.js",
     "static/js/787.a91c73ea.chunk.js": "/sustainable-webpage-2/static/js/787.a91c73ea.chunk.js",
     "static/media/pexels-video.mp4": "/sustainable-webpage-2/static/media/pexels-video.175dd70937c04dbb42a4.mp4",
-    "static/media/mountain.jpg": "/sustainable-webpage-2/static/media/mountain.a4aae491ec385a38265b.jpg",
-    "static/media/lake-unsplash.jpg": "/sustainable-webpage-2/static/media/lake-unsplash.797a285acd5960664aed.jpg",
-    "static/media/nature-unsplash.jpg": "/sustainable-webpage-2/static/media/nature-unsplash.2dbd6506eb54e7b6e113.jpg",
-    "static/media/sea-unsplash.jpg": "/sustainable-webpage-2/static/media/sea-unsplash.787a3a4b031a2021ed94.jpg",
-    "static/media/sun.jpg": "/sustainable-webpage-2/static/media/sun.dd94caa436d29ca711b7.jpg",
-    "static/media/gorilla.jpg": "/sustainable-webpage-2/static/media/gorilla.02f4c2f96ce9144c3c98.jpg",
-    "static/media/lion.jpg": "/sustainable-webpage-2/static/media/lion.9115d5c6cb135e5c1392.jpg",
-    "static/media/polarbear.jpg": "/sustainable-webpage-2/static/media/polarbear.1f0ae1e39fa8b98d1571.jpg",
-    "static/media/butterfly.jpg": "/sustainable-webpage-2/static/media/butterfly.2371d88a9e7acfba5659.jpg",
-    "static/media/bouncing-svg.svg": "/sustainable-webpage-2/static/media/bouncing-svg.609fcfda3b6a33e3fb9e14e97cc69beb.svg",
-    "static/media/svg.svg": "/sustainable-webpage-2/static/media/svg.dfad53660959c3bee83d65973b91a103.svg",
+    "static/media/mountain.webp": "/sustainable-webpage-2/static/media/mountain.46ad493ec49dc80ed22e.webp",
+    "static/media/lake-unsplash.webp": "/sustainable-webpage-2/static/media/lake-unsplash.13db329fa73ddcefdcea.webp",
+    "static/media/nature-unsplash.webp": "/sustainable-webpage-2/static/media/nature-unsplash.e47b232345c187c991ff.webp",
+    "static/media/sea-unsplash.webp": "/sustainable-webpage-2/static/media/sea-unsplash.5cc12aae395d1e501ae3.webp",
+    "static/media/gorilla.webp": "/sustainable-webpage-2/static/media/gorilla.ca1e3f0f8b94ef8ea754.webp",
+    "static/media/lion.webp": "/sustainable-webpage-2/static/media/lion.133b1fc102b979389df8.webp",
+    "static/media/sun.webp": "/sustainable-webpage-2/static/media/sun.01068ea3b141371486a5.webp",
+    "static/media/polarbear.webp": "/sustainable-webpage-2/static/media/polarbear.da362cf53313930e8ab3.webp",
+    "static/media/butterfly.webp": "/sustainable-webpage-2/static/media/butterfly.38703dde6585442f17b6.webp",
+    "static/media/static-svg.svg": "/sustainable-webpage-2/static/media/static-svg.3ff0b4624b88dc0ed42d7ebc5bd698aa.svg",
+    "static/media/svg.svg": "/sustainable-webpage-2/static/media/svg.470f3bf76eefc51209603e6bf4ce4f87.svg",
+    "static/media/logo.webp": "/sustainable-webpage-2/static/media/logo.2cb82fa839d00135f2d9.webp",
     "index.html": "/sustainable-webpage-2/index.html",
-    "main.f03a8b32.css.map": "/sustainable-webpage-2/static/css/main.f03a8b32.css.map",
-    "main.e8d4892d.js.map": "/sustainable-webpage-2/static/js/main.e8d4892d.js.map",
+    "main.8df11a15.css.map": "/sustainable-webpage-2/static/css/main.8df11a15.css.map",
+    "main.89ad8314.js.map": "/sustainable-webpage-2/static/js/main.89ad8314.js.map",
     "787.a91c73ea.chunk.js.map": "/sustainable-webpage-2/static/js/787.a91c73ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f03a8b32.css",
-    "static/js/main.e8d4892d.js"
+    "static/css/main.8df11a15.css",
+    "static/js/main.89ad8314.js"
   ]
 }
