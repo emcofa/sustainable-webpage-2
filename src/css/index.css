@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 
-.pageTwo {
+:root {
   --color-bg: #2d2d2d;
   --color-bg-variant: #262626;
   --color-primary: #28a745;
