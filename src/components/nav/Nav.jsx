@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <div>
             <div className="nav__above">
-                <p>This is the template for webpage 1</p>
+                <p>This is the template for webpage 2</p>
             </div>
             <nav>
                 <img src={Logo} alt="logo" />
