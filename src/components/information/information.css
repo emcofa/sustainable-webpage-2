@@ -1,6 +1,6 @@
 .information-container {
     height: 100vh;
-    background: linear-gradient(to bottom, var(--color-primary-light), var(--color-primary-variant));
+    background-color: var(--color-primary-variant);
     display: flex;
     flex-direction: column;
     justify-content: center;
