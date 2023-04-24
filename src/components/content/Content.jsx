@@ -1,5 +1,5 @@
 import React from "react";
-import Sun from "../../assets/sun.jpg";
+import Sun from "../../assets/sun.webp";
 import "./content.css";
 
 function Content() {
@@ -32,7 +32,13 @@ function Content() {
                     </p>
                 </div>
                 <div>
-                    <img src={Sun} alt="sunset" />
+                    <img
+                        src={Sun}
+                        alt="sunset"
+                        loading="lazy"
+                        srcSet={`${Sun} 800w, ${Sun} 1200w, ${Sun} 1600w`}
+                        sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, 33.3vw"
+                    />
                 </div>
             </div>
         </div>

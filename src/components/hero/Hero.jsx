@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './hero.css';
-import Lake from '../../assets/lake-unsplash.jpg';
-import Sea from '../../assets/sea-unsplash.jpg';
-import Nature from '../../assets/nature-unsplash.jpg';
+import Lake from '../../assets/lake-unsplash.webp';
+import Sea from '../../assets/sea-unsplash.webp';
+import Nature from '../../assets/nature-unsplash.webp';
 import Svg from '../../assets/bouncing-svg.svg';
 
 function Hero() {

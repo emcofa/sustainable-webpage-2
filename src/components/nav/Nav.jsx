@@ -1,6 +1,6 @@
 import React from 'react'
 import './nav.css'
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.webp'
 
 const Nav = () => {
     return (

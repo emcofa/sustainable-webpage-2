@@ -1,9 +1,9 @@
 import React from 'react';
 import './information.css';
-import Lion from '../../assets/lion.jpg'
-import Gorilla from '../../assets/gorilla.jpg'
-import Butterfly from '../../assets/butterfly.jpg'
-import Polarbear from '../../assets/polarbear.jpg'
+import Lion from '../../assets/lion.webp'
+import Gorilla from '../../assets/gorilla.webp'
+import Butterfly from '../../assets/butterfly.webp'
+import Polarbear from '../../assets/polarbear.webp'
 
 
 function Information() {
